@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    /* background-color: #1f2421; */
+    background-image: url(/Password-generator/high-quality-password-background-digital-illustration-E956WG.jpg);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+}
+
+.box {
+    background-color: #002895;
+    padding-top: 60px;
+    padding: 60px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+}
+
+.box h2 {
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+input {
+    padding: 20px;
+    user-select: none;
+    height: 50px;
+    width: 400px;
+    border-radius: 6px;
+    border: none;
+    border: 2px solid #ffffff;
+    outline: none;
+    font-size: 22px;
+    background: #5a7bff;
+    color: #fff;
+}
+
+input::placeholder {
+    font-size: 23px;
+    color: #fff;
+}
+
+input::selection {
+    background: #5a7bff;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button {
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-top: 40px;
+    border: 2px solid ;
+    width: 155px;
+    height: 50px;
+    text-align: center;
+    background-color: #5a7bff;
+    display: flex;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.button:hover {
+    color: white;
+    background-color: #c3c4ff;
+}
